@@ -1,13 +1,39 @@
 
-	*{font-family: 
+	/* Sets font for all text on the page
+	astricks set rule for everything
+	*/
+
+
+*{font-family: 
 		Georgia, serif;}
 
 
 h1{text-transform: uppercase;}
 
-figcaption {color: gray;}
+figure{
+max-width: 600px;}
 
-footer{color: gray;}
-	
+figcaption {
+	color: gray;}
+
+/*sets maximum space for image and caption*/
+figure{
+	max-width: 600px;}
+
+/*allows image to take up full space of above*/
+
+img{
+	max-width: 100%;}
+
+
+h6{
+	color: gray;}
+
+.red{
+	color: red;}
+
+.blue{
+	color:blue;
+}
 
 	
